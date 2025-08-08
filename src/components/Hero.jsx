@@ -1,0 +1,13 @@
+// src/components/Hero.jsx
+import React from 'react';
+
+
+const Hero = () => {
+  return (
+   <h1 >
+    Welcome to My Portfolio
+   </h1>
+  );
+};
+
+export default Hero;
