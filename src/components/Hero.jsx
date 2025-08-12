@@ -24,11 +24,17 @@ View My Work
 </div>
 
  </div>
-  <div className="shrink-0">
+  <div className="shrink-0 mt-12 md:mt-0">
   <img 
     src={myAvatar}
     alt="An illustration of a woman developer coding on a laptop." 
-    className="w-64 h-64 md:w-80 lg:w-96 md:h-80 lg:h-96" 
+    className="
+      w-64 h-64 md:w-80 lg:w-96 md:h-80 lg:h-96 
+      transition-all duration-300 
+      hover:scale-105 
+      hover:shadow-2xl 
+      hover:shadow-accent/30
+    " 
   />
 </div>
    </section>
