@@ -4,7 +4,7 @@ import myAvatar from '../assets/hero-image.png'; // Adjust the path as necessary
 import resume from '../assets/Resume.txt.pdf'; // Adjust the path as necessary
 const Hero = () => {
   return (
-   <section className="bg-surface min-h-screen flex flex-col md:flex-row items-center justify-center text-center gap-12 p-8 lg:p-16">
+   <section id="hero" className="bg-surface min-h-screen flex flex-col md:flex-row items-center justify-center text-center gap-12 p-8 lg:p-16">
    <div className='text-center p-4'>
     <h1 className='font-serif text-5xl md:text-7xl font-bold text-text-primary'>
       Sangeetha Rajan
