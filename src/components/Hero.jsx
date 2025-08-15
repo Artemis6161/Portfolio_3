@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 import React from 'react';
 import myAvatar from '../assets/hero-image.png'; // Adjust the path as necessary
-
+import resume from '../assets/Resume.txt.pdf'; // Adjust the path as necessary
 const Hero = () => {
   return (
    <section className="bg-surface min-h-screen flex flex-col md:flex-row items-center justify-center text-center gap-12 p-8 lg:p-16">
@@ -18,7 +18,7 @@ const Hero = () => {
   <a href="#projects" className="bg-accent text-surface font-bold py-3 px-6 rounded-lg hover:opacity-90 transition-opacity">
 View My Work
   </a>
-<a href="/sangeetha-rajan-resume.pdf" target="_blank" rel="noopener noreferrer" className="border-2 border-text-secondary/40 text-text-secondary font-bold py-3 px-6 rounded-lg hover:bg-surface-light hover:border-text-secondary transition-all">
+<a href={resume} target="_blank" rel="noopener noreferrer" className="border-2 border-text-secondary/40 text-text-secondary font-bold py-3 px-6 rounded-lg hover:bg-surface-light hover:border-text-secondary transition-all">
  Resume
 </a>    
 </div>
