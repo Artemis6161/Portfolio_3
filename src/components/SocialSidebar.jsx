@@ -13,7 +13,7 @@ const SocialSidebar = () => {
       {/* List of social icons */}
       <ul className="flex flex-col items-center">
         <li className="mb-4">
-          <a href="www.linkedin.com/in/sangeetha-rajan-283106198" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-accent hover:scale-110 transition-all duration-300">
+          <a href="https://www.linkedin.com/in/sangeetha-rajan-283106198/" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-accent hover:scale-110 transition-all duration-300">
             <FaLinkedin size={24} />
           </a>
         </li>

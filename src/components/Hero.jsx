@@ -7,7 +7,7 @@ const Hero = () => {
    <section className="bg-surface min-h-screen flex flex-col md:flex-row items-center justify-center text-center gap-12 p-8 lg:p-16">
    <div className='text-center p-4'>
     <h1 className='font-serif text-5xl md:text-7xl font-bold text-text-primary'>
-      Sangeetha Rajan
+      SR
     </h1>
     <p className="font-sans text-xl text-text-secondary mt-4 max-w-2xl mx-auto md:mx-0">
  A Frontend & MERN Stack Developer passionate about building modern web applications.
