@@ -43,7 +43,7 @@ const Navbar = () => {
       {/* Logo/Name - This is the first flex item */}
       <div>
         <h1 className="font-serif text-3xl font-bold text-accent cursor-pointer">
-          <Link to="hero" smooth={true} duration={500}>Sangeetha Rajan</Link>
+          <Link to="hero" smooth={true} duration={500}>SR</Link>
         </h1>
       </div>
 
